@@ -1,12 +1,12 @@
-pouchdb-adapter-node-websql
+pouchdb-adapter-node-sql
 ======
 
-PouchDB adapter using Node-based SQLite (via [node-websql](https://github.com/nolanlawson/node-websql)) as its data store. Designed to run in Node.js. Its adapter name is `'websql'`.
+Based on PouchDB adapter using Node-based SQLite (via [node-websql](https://github.com/nolanlawson/node-websql)) as its data store. Designed to run in Node.js. Its adapter name is `'websql'`.
 
 ### Usage
 
 ```bash
-npm install github:liederivative/pouchdb-adapter-node-sql-core
+npm install github:liederivative/pouchdb-adapter-node-sql
 ```
 
 ```js

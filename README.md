@@ -6,7 +6,7 @@ PouchDB adapter using Node-based SQLite (via [node-websql](https://github.com/no
 ### Usage
 
 ```bash
-npm install pouchdb-adapter-node-websql
+npm install github:liederivative/pouchdb-adapter-node-sql-core
 ```
 
 ```js

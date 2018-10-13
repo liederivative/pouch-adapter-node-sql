@@ -10,7 +10,7 @@ npm install pouchdb-adapter-node-websql
 ```
 
 ```js
-PouchDB.plugin(require('pouchdb-adapter-node-websql'));
+PouchDB.plugin(require('pouchdb-adapter-node-node-sql'));
 var db = new PouchDB('mydb', {adapter: 'websql'});
 ```
 

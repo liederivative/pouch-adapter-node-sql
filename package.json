@@ -1,5 +1,5 @@
 {
-  "name": "pouchdb-adapter-node-websql",
+  "name": "pouchdb-adapter-node-sql",
   "version": "7.0.0",
   "description": "PouchDB adapter using Node-based SQLite as its data store.",
   "main": "./lib/index.js",
@@ -9,7 +9,7 @@
   "repository": "https://github.com/pouchdb/pouchdb",
   "jsnext:main": "./lib/index.es.js",
   "dependencies": {
-    "pouchdb-adapter-node-sql-core": "github:liederivative/pouchdb-adapter-node-sql-core",
+    "pouchdb-adapter-node-sql-core": "7.0.1",
     "pouchdb-utils": "7.0.0",
     "websql": "1.0.0"
   },

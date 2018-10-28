@@ -1,6 +1,6 @@
 {
   "name": "pouchdb-adapter-node-sql",
-  "version": "7.0.3",
+  "version": "7.0.4",
   "description": "PouchDB adapter using Node-based SQLite as its data store.",
   "main": "./lib/index.js",
   "keywords": [],

@@ -8,11 +8,22 @@ Based on PouchDB adapter using Node-based SQLite (via [node-websql](https://gith
 ```bash
 npm install github:liederivative/pouchdb-adapter-node-sql
 ```
+or 
+
+```bash
+yarn add pouchdb-adapter-node-sql
+```
 
 ```js
 PouchDB.plugin(require('pouchdb-adapter-node-node-sql'));
 var db = new PouchDB('mydb', {adapter: 'websql'});
 ```
+
+Also the query interface has been changed as follows: 
+```js
+db.query('name-or-id-for-query', {selector: {name: "Hi"}, limit: 1})
+```
+This interface has partial support of query mango (couchdb).  
 
 For full API documentation and guides on PouchDB, see [PouchDB.com](http://pouchdb.com/). For details on PouchDB sub-packages, see the [Custom Builds documentation](http://pouchdb.com/custom.html).
 
